@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachith Chandra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <div class="container">
+        <!-- Hero Section with 3D Effect -->
+        <section class="hero-section" data-aos="fade-down" data-aos-duration="1000">
+            <div class="floating-shape shape1"></div>
+            <div class="floating-shape shape2"></div>
+            <div class="floating-shape shape3"></div>
+            
+            <div class="profile-card glass-effect" data-tilt>
+                <div class="profile-image-wrapper">
+                    <div class="profile-image glowing-effect">
+                        <img src="profile.jpg" alt="Profile Picture" id="profileImg">
+                    </div>
+                    <div class="status-badge">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                </div>
+                
+                <h1 class="name typing-effect">ඔයාගේ නම</h1>
+                <p class="bio">වෙබ් සංවර්ධක | තාක්ෂණ ලෝලී | ඡායාරූප ශිල්පී</p>
+                
+                <!-- Animated Social Media Icons -->
+                <div class="social-icons" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#" class="social-icon facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="tooltip">Facebook</span>
+                    </a>
+                    <a href="#" class="social-icon twitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span class="tooltip">Twitter</span>
+                    </a>
+                    <a href="#" class="social-icon instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span class="tooltip">Instagram</span>
+                    </a>
+                    <a href="#" class="social-icon linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-icon github" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="#" class="social-icon youtube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        <span class="tooltip">YouTube</span>
+                    </a>
+                </div>
+                
+                <!-- Contact Info with Hover Effects -->
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>youremail@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+94 77 123 4567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>ශ්‍රී ලංකාව</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Section with Counter Animation -->
+        <section class="stats-section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="stat-card glass-effect" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-project-diagram"></i>
+                <h3 class="counter" data-target="50">0</h3>
+                <p>ව්‍යාපෘති</p>
+            </div>
+            <div class="stat-card glass-effect" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="100">0</h3>
+                <p>සතුටු පාරිභෝගිකයින්</p>
+            </div>
+            <div class="stat-card glass-effect" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-award"></i>
+                <h3 class="counter" data-target="15">0</h3>
+                <p>සම්මාන</p>
+            </div>
+            <div class="stat-card glass-effect" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-coffee"></i>
+                <h3 class="counter" data-target="1000">0</h3>
+                <p>කෝපි කෝප්ප</p>
+            </div>
+        </section>
+        
+        <!-- Gallery Section with 3D Hover Effect -->
+        <section class="gallery-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title" data-aos="fade-right">මගේ ඡායාරූප</h2>
+            <div class="gallery">
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="100">
+                    <div class="gallery-inner">
+                        <img src="photo1.jpg" alt="Photo 1">
+                        <div class="overlay">
+                            <h3>සුන්දරත්වය</h3>
+                            <p>ස්වභාවික ඡායාරූප</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="200">
+                    <div class="gallery-inner">
+                        <img src="photo2.jpg" alt="Photo 2">
+                        <div class="overlay">
+                            <h3>නගර දර්ශන</h3>
+                            <p>නාගරික ඡායාරූප</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="300">
+                    <div class="gallery-inner">
+                        <img src="photo3.jpg" alt="Photo 3">
+                        <div class="overlay">
+                            <h3>සංචාරක</h3>
+                            <p>ලොව වටා</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="400">
+                    <div class="gallery-inner">
+                        <img src="photo4.jpg" alt="Photo 4">
+                        <div class="overlay">
+                            <h3>ස්වභාවය</h3>
+                            <p>වනජීවී</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="500">
+                    <div class="gallery-inner">
+                        <img src="photo5.jpg" alt="Photo 5">
+                        <div class="overlay">
+                            <h3>සිහින</h3>
+                            <p>සැබෑ වූ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="flip-left" data-aos-delay="600">
+                    <div class="gallery-inner">
+                        <img src="photo6.jpg" alt="Photo 6">
+                        <div class="overlay">
+                            <h3>මතක</h3>
+                            <p>අමිල</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Web App Section with Interactive Design -->
+        <section class="webapp-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title" data-aos="fade-left">සරල කාර්ය කළමනාකරණ යෙදුම</h2>
+            <div class="todo-app glass-effect" data-aos="zoom-in" data-aos-delay="200">
+                <div class="input-group floating-effect">
+                    <input type="text" id="taskInput" placeholder="නව කාර්යයක් එක් කරන්න...">
+                    <button onclick="addTask()" class="pulse-effect">
+                        <i class="fas fa-plus"></i> එක් කරන්න
+                    </button>
+                </div>
+                <ul id="taskList" class="task-list">
+                    <!-- Tasks will be added here -->
+                </ul>
+                
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-info">
+                        <span>ප්‍රගතිය</span>
+                        <span id="progressPercentage">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                </div>
+                
+                <!-- Task Stats -->
+                <div class="task-stats">
+                    <span id="totalTasks">මුළු කාර්ය: 0</span>
+                    <span id="completedTasks">සම්පූර්ණ කළ: 0</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+                      </html>
